@@ -1,0 +1,27 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sb=new Scanner(System.in);
+        int age,cls;
+        System.out.println("Enter your name");
+        String name=sb.nextLine();
+        System.out.println("Enter your age");
+        age=sb.nextInt();
+        System.out.println("Enter your class");      
+	cls=sb.nextInt();
+        System.out.println("Enter your favorite color");
+        String col=sb.nextLine();
+        System.out.println("Enter your school");
+        String scl=sb.nextLine();
+        
+        System.out.println("Here's your introduction ");
+        System.out.println("My name is "+name);
+        System.out.println("I am "+age+" years old");
+        System.out.println("I study in "+scl);
+        System.out.println("I study in class "+cls);
+        System.out.println("My favorite color is "+col);
+
+    }
+}
